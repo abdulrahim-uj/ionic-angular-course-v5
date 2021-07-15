@@ -1,0 +1,6 @@
+<ion-item [routerLink]="['/recipies', recipieItem.id]">
+  <ion-avatar slot="start">
+    <ion-img [src]="recipieItem.imageUrl"></ion-img>
+  </ion-avatar>
+  <ion-label>{{ recipieItem.title }}</ion-label>
+</ion-item>
